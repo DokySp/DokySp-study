@@ -1,0 +1,61 @@
+name: Publish
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 15 * * *'
+
+jobs:
+  build:
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+#     - name: update list
+#       run: |
+#         python3 .script/run.py
+        
+#     - name: Deploy build
+#       run: |
+#         git config --local user.email "uhug@naver.com"
+#         git config --local user.name "DokySp"
+#         git add .
+#         git status
+#         git commit -am "Deploy with Github Actions (${GITHUB_WORKFLOW}) in `date -d'9 hour' '+%Y.%m.%d-%H:%M:%S'`"
+#     - name: Push changes
+#       uses: ad-m/github-push-action@master
+#       with:
+#         github_token: ${{ secrets.GITHUB_TOKEN }}
+
+#   send-telegram-message:
+#     runs-on: ubuntu-latest
+#     needs: build
+#     steps:
+#     # https://github.com/marketplace/actions/telegram-notify
+#     - name: Send Success Telegram Message
+#       if: needs.build.result == 'success'
+#       uses: appleboy/telegram-action@master
+#       with:
+#         to: ${{ secrets.TELEGRAM_TO }}
+#         token: ${{ secrets.TELEGRAM_TOKEN }}
+#         message: |
+#           ✅ 빌드 성공
+#           "#${{github.run_number}}: ${{github.event.head_commit.message}}"
+#     # 이전 스탭에서 빌드 실패한 것을 알 수 있는 방법을 알면 좋으련만... > fail-fast / continue-on-error
+#     - name: Send Failure Telegram Message
+#       if: needs.build.result != 'success'
+#       uses: appleboy/telegram-action@master
+#       with:
+#         to: ${{ secrets.TELEGRAM_TO }}
+#         token: ${{ secrets.TELEGRAM_TOKEN }}
+#         message: |
+#           ❌ 빌드 실패
+#           "#${{github.run_number}}: ${{github.event.head_commit.message}}"
+#           https://github.com/uhug/uhug.github.io/actions
