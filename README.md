@@ -9,13 +9,13 @@
 
 ## **✅ 완료**
 
-### [GC162-AL](https://github.com/DokySp-study/GC162-AL)
+#### [GC162-AL](https://github.com/DokySp-study/GC162-AL)
 
  가천대학교 16년도 2학기 **알고리즘** 수업 텀프로젝트: 엘리베이터 프로젝트
 <br>`Updated Oct 24, 2022`
 <br>
 
-### [GC162-NT](https://github.com/DokySp-study/GC162-NT)
+#### [GC162-NT](https://github.com/DokySp-study/GC162-NT)
 
  가천대학교 16년도 2학기 **네트워크** 수업 텀프로젝트: 가람 프로젝트
 <br>`Updated Oct 24, 2022`
