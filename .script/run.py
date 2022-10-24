@@ -131,9 +131,9 @@ for data in data_list:
         result_md += "## **🚧 진행중**\n\n"
 
     if data.content == "":
-        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n- status: **{data.status}**\n- date : {data.date}\n\n"
+        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n- status: **{data.status}**\n- date : `{data.date}`\n\n"
     else:
-        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n- status: **{data.status}**\n- content: {data.content}\n- date : {data.date}\n\n"
+        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n- status: **{data.status}**\n- content: `{data.content}`\n- date : {data.date}\n\n"
 
 # make README.md file
 f = open("README.md", 'w')
