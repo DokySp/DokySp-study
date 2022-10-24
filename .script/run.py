@@ -133,7 +133,7 @@ for data in data_list:
     if data.content == "":
         result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n- status: **{data.status}**\n- `{data.date}`\n\n"
     else:
-        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n{data.content}\n- `{data.date}`\n\n"
+        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n- {data.content}\n- `{data.date}`\n\n"
 
 # make README.md file
 f = open("README.md", 'w')
