@@ -119,6 +119,7 @@ result_md += f"- **총 {len(data_list)}개 레포** [완료: {done_num}개 / 진
 result_md += "- [📚 Organization 방문하기](https://github.com/DokySp-study)\n\n"
 result_md += "<br><br>\n\n"
 
+data_list.sort(key=lambda x: x.title)
 data_list.sort(key=lambda x: x.status)
 ip_sep = False
 result_md += "## **✅ 완료**\n\n"
