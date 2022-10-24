@@ -2,9 +2,9 @@
 
 - 개인 공부 내용을 정리한 Organization입니다.
 - 매주 월요일 0시에 업데이트됩니다. 최신 내용을 확인하시려면 아래 Organization을 방문해주세요.
-- **총 23개 레포** [완료: 11개 / 진행중: 12개]
+- **총 27개 레포** [완료: 11개 / 진행중: 16개]
 - [📚 Organization 방문하기](https://github.com/DokySp-study)
- 
+
 <br>
 
 ## **✅ 완료**
@@ -85,6 +85,24 @@ C++을 배워보쟈
 <br>`Updated Nov 21, 2020`
 <br><br>
 
+### [GC222-CS](https://github.com/DokySp-study/GC222-CS)
+
+**Cyber Security** class; Cyber range project
+<br>`Updated Oct 24, 2022`
+<br><br>
+
+### [GC222-HCI](https://github.com/DokySp-study/GC222-HCI)
+
+status: **In Progress**
+<br>`Updated Oct 24, 2022`
+<br><br>
+
+### [GC222-Python](https://github.com/DokySp-study/GC222-Python)
+
+**응용프로그래밍** 과목, 가천대학교 2022년 2학기
+<br>`Updated Oct 24, 2022`
+<br><br>
+
 ### [Goal](https://github.com/DokySp-study/Goal)
 
 공부할 내용을 적는 레포
@@ -107,6 +125,12 @@ Repository for swift online lecture
 
 Quick Start Vue.js [원형섭] 책 공부 및 실습 내용 정리
 <br>`Updated Sep 30, 2022`
+<br><br>
+
+### [android-mvi-sample](https://github.com/DokySp-study/android-mvi-sample)
+
+Example MVI implementation, based off of Google's architectural samples.
+<br>`Updated Sep 28, 2022`
 <br><br>
 
 ### [electron](https://github.com/DokySp-study/electron)
