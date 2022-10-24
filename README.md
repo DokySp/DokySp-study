@@ -15,23 +15,17 @@
 <br>`Updated Oct 24, 2022`
 <br>
 
----
-
 ### [GC162-NT](https://github.com/DokySp-study/GC162-NT)
 
  가천대학교 16년도 2학기 **네트워크** 수업 텀프로젝트: 가람 프로젝트
 <br>`Updated Oct 24, 2022`
 <br>
 
----
-
 ### [GC212-CG](https://github.com/DokySp-study/GC212-CG)
 
  **Computer Graphics** class in Gachon University SWDM, 2021 Fall; this contains all of in-class examples and exercises.
 <br>`Updated Oct 24, 2022`
 <br>
-
----
 
 ### [GC212-ML](https://github.com/DokySp-study/GC212-ML)
 
