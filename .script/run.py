@@ -36,7 +36,10 @@ while True:
     lists = raw_doc.find("ul").findAll("li")
 
     result_md = ""
-    result_md += "# Doky Study Repo\n\n"
+    result_md += "# DokySp Study Repo\n\n"
+
+    result_md += "## 📚\n\n"
+    result_md += "- [DokySp-Study Repo](https://github.com/DokySp-study)\n\n"
 
     for i, item in enumerate(lists):
         # print(f"========={i}=========")
@@ -114,7 +117,7 @@ result_md += "## 완료\n\n"
 for data in data_list:
     if not ip_sep and data.status == "In Progress":
         ip_sep = True
-        result_md += "### 진행중\n\n"
+        result_md += "## 진행중\n\n"
 
     result_md += f"### {data.title}\n\n- status: {data.status}\n- content: {data.content}\n- date : {data.date}\n\n"
 

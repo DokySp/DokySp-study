@@ -2,37 +2,42 @@ name: Publish
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '0 15 * * *'
 
 jobs:
   build:
-    continue-on-error: true
+    continue-on-error: false
     strategy:
       fail-fast: false
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
 
-#     - name: update list
-#       run: |
-#         python3 .script/run.py
+    - name: init python env
+      run: |
+        pip install BeautifulSoup4       
+         
+    - name: update list
+      run: |
+        python3 .script/run.py
         
-#     - name: Deploy build
-#       run: |
-#         git config --local user.email "uhug@naver.com"
-#         git config --local user.name "DokySp"
-#         git add .
-#         git status
-#         git commit -am "Deploy with Github Actions (${GITHUB_WORKFLOW}) in `date -d'9 hour' '+%Y.%m.%d-%H:%M:%S'`"
-#     - name: Push changes
-#       uses: ad-m/github-push-action@master
-#       with:
-#         github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Deploy build
+      run: |
+        git config --local user.email "uhug@naver.com"
+        git config --local user.name "DokySp"
+        git add .
+        git status
+        git commit -am "Deploy with Github Actions (${GITHUB_WORKFLOW}) in `date -d'9 hour' '+%Y.%m.%d-%H:%M:%S'`"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+
 
 #   send-telegram-message:
 #     runs-on: ubuntu-latest
