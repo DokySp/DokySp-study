@@ -2,6 +2,7 @@
 # Script for creating README.md
 '''
 
+from re import L
 import requests
 from bs4 import BeautifulSoup
 
@@ -36,10 +37,10 @@ while True:
     lists = raw_doc.find("ul").findAll("li")
 
     result_md = ""
-    result_md += "# DokySp Study Repo\n\n"
-
-    result_md += "## 📚\n\n"
-    result_md += "- [DokySp-Study Repo](https://github.com/DokySp-study)\n\n"
+    result_md += "# DokySp Study\n\n"
+    result_md += "- 개인 공부 내용을 정리한 Organization입니다.\n"
+    result_md += "- 매주 월요일 0시에 업데이트됩니다. 최신 내용을 확인하시려면 아래 Organization을 방문해주세요.\n"
+    result_md += "- [📚 Organization 방문하기](https://github.com/DokySp-study)\n\n"
 
     for i, item in enumerate(lists):
         # print(f"========={i}=========")
@@ -112,14 +113,17 @@ while True:
 
 data_list.sort(key=lambda x: x.status)
 ip_sep = False
-result_md += "## 완료\n\n"
+result_md += "## ✅ 완료\n\n"
 
 for data in data_list:
     if not ip_sep and data.status == "In Progress":
         ip_sep = True
-        result_md += "## 진행중\n\n"
+        result_md += "## 🚧 진행중\n\n"
 
-    result_md += f"### {data.title}\n\n- status: {data.status}\n- content: {data.content}\n- date : {data.date}\n\n"
+    if data.content == "":
+        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n- status: {data.status}\n- date : {data.date}\n\n"
+    else:
+        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n- status: {data.status}\n- content: {data.content}\n- date : {data.date}\n\n"
 
 # make README.md file
 f = open("README.md", 'w')
