@@ -117,7 +117,7 @@ while True:
 
 result_md += f"- **총 {len(data_list)}개 레포** [완료: {done_num}개 / 진행중: {ip_num}개]\n"
 result_md += "- [📚 Organization 방문하기](https://github.com/DokySp-study)\n\n"
-result_md += "<br><br>\n\n"
+result_md += "<br>\n\n"
 
 data_list.sort(key=lambda x: x.title)
 data_list.sort(key=lambda x: x.status)
@@ -131,9 +131,9 @@ for data in data_list:
         result_md += "## **🚧 진행중**\n\n"
 
     if data.content == "":
-        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n- status: **{data.status}**\n- `{data.date}`\n\n"
+        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\nstatus: **{data.status}**\n<br>`{data.date}`\n\n"
     else:
-        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n- {data.content}\n- `{data.date}`\n\n"
+        result_md += f"### [{data.title}](https://github.com/DokySp-study/{data.title})\n\n{data.content}\n\n<br>`{data.date}`\n\n"
 
 # make README.md file
 f = open("README.md", 'w')
