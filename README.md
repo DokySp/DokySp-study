@@ -136,7 +136,7 @@ Example MVI implementation, based off of Google's architectural samples.
 ### [electron](https://github.com/DokySp-study/electron)
 
 일렉트론 테스트 및 공부내용 정리 (aarch64 빌드 테스트)
-<br>`Updated Sep 21, 2022`
+<br>`Updated Nov 10, 2022`
 <br><br>
 
 ### [git](https://github.com/DokySp-study/git)
