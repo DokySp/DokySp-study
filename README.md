@@ -172,7 +172,7 @@ Practice node.js with Travis CI
 ### [react](https://github.com/DokySp-study/react)
 
 리엑트를 배워보쟈 (코딩애플 강의 복기)
-<br>`Updated Jan 16, 2022`
+<br>`Updated Nov 21, 2022`
 <br><br>
 
 ### [typescript](https://github.com/DokySp-study/typescript)
