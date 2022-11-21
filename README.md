@@ -1,8 +1,8 @@
 # DokySp Study
- 
+
 - 개인 공부 내용을 정리한 Organization입니다.
 - 매주 월요일 0시에 업데이트됩니다. 최신 내용을 확인하시려면 아래 Organization을 방문해주세요.
-- **총 27개 레포** [완료: 11개 / 진행중: 16개]
+- **총 28개 레포** [완료: 11개 / 진행중: 17개]
 - [📚 Organization 방문하기](https://github.com/DokySp-study)
 
 <br>
@@ -79,6 +79,12 @@
 
 ## **🚧 진행중**
 
+### [ARCore](https://github.com/DokySp-study/ARCore)
+
+Google ARCore를 배워보쟈
+<br>`Updated Nov 21, 2022`
+<br><br>
+
 ### [Cpp](https://github.com/DokySp-study/Cpp)
 
 C++을 배워보쟈
@@ -124,7 +130,7 @@ Repository for swift online lecture
 ### [Vue.js](https://github.com/DokySp-study/Vue.js)
 
 Quick Start Vue.js [원형섭] 책 공부 및 실습 내용 정리
-<br>`Updated Sep 30, 2022`
+<br>`Updated Nov 18, 2022`
 <br><br>
 
 ### [android-mvi-sample](https://github.com/DokySp-study/android-mvi-sample)
@@ -160,7 +166,7 @@ Github Actions를 배워보쟈!
 ### [nodejs-CI-test](https://github.com/DokySp-study/nodejs-CI-test)
 
 Practice node.js with Travis CI
-<br>`Updated Sep 30, 2022`
+<br>`Updated Nov 18, 2022`
 <br><br>
 
 ### [react](https://github.com/DokySp-study/react)
