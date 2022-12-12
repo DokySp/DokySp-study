@@ -130,7 +130,7 @@ Repository for swift online lecture
 ### [Vue.js](https://github.com/DokySp-study/Vue.js)
 
 Quick Start Vue.js [원형섭] 책 공부 및 실습 내용 정리
-<br>`Updated Dec 4, 2022`
+<br>`Updated Dec 11, 2022`
 <br><br>
 
 ### [android-mvi-sample](https://github.com/DokySp-study/android-mvi-sample)
@@ -142,7 +142,7 @@ Example MVI implementation, based off of Google's architectural samples.
 ### [electron](https://github.com/DokySp-study/electron)
 
 일렉트론 테스트 및 공부내용 정리 (aarch64 빌드 테스트)
-<br>`Updated Dec 4, 2022`
+<br>`Updated Dec 11, 2022`
 <br><br>
 
 ### [git](https://github.com/DokySp-study/git)
@@ -166,7 +166,7 @@ Github Actions를 배워보쟈!
 ### [nodejs-CI-test](https://github.com/DokySp-study/nodejs-CI-test)
 
 Practice node.js with Travis CI
-<br>`Updated Dec 4, 2022`
+<br>`Updated Dec 11, 2022`
 <br><br>
 
 ### [react](https://github.com/DokySp-study/react)
