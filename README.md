@@ -2,17 +2,35 @@
 
 - 개인 공부 내용을 정리한 Organization입니다.
 - 매주 월요일 0시에 업데이트됩니다. 최신 내용을 확인하시려면 아래 Organization을 방문해주세요.
-- **총 28개 레포** [완료: 12개 / 진행중: 16개]
+- **총 34개 레포** [완료: 17개 / 진행중: 17개]
 - [📚 Organization 방문하기](https://github.com/DokySp-study)
 
 <br>
 
 ## **✅ 완료**
 
+### [AR.js](https://github.com/DokySp-study/AR.js)
+
+ Javascript Library for Argument Reality in Web
+<br>`Updated Oct 13, 2018`
+<br><br>
+
 ### [ARCore](https://github.com/DokySp-study/ARCore)
 
  Google ARCore를 배워보쟈
 <br>`Updated Nov 25, 2022`
+<br><br>
+
+### [ES6_TEST](https://github.com/DokySp-study/ES6_TEST)
+
+ React & ES6 tests and practices
+<br>`Updated Jul 30, 2018`
+<br><br>
+
+### [Flutter-PWA-Test](https://github.com/DokySp-study/Flutter-PWA-Test)
+
+ Flutter로 PWA 앱 만들어보기
+<br>`Updated May 8, 2021`
 <br><br>
 
 ### [GC162-AL](https://github.com/DokySp-study/GC162-AL)
@@ -24,6 +42,12 @@
 ### [GC162-NT](https://github.com/DokySp-study/GC162-NT)
 
  가천대학교 16년도 2학기 **네트워크** 수업 텀프로젝트: 가람 프로젝트
+<br>`Updated Oct 24, 2022`
+<br><br>
+
+### [GC211MP](https://github.com/DokySp-study/GC211MP)
+
+ **Mobile Programming** class in Gachon University, Spring 2021
 <br>`Updated Oct 24, 2022`
 <br><br>
 
@@ -55,6 +79,12 @@
 
  All of projects and assignments of **Deep Learning** class in Gachon University, Spring 2022
 <br>`Updated Oct 24, 2022`
+<br><br>
+
+### [blog](https://github.com/DokySp-study/blog)
+
+ 블로그 제작 테스트 프로젝트
+<br>`Updated Dec 11, 2022`
 <br><br>
 
 ### [dart-mixins](https://github.com/DokySp-study/dart-mixins)
@@ -172,7 +202,13 @@ Practice node.js with Travis CI
 ### [react](https://github.com/DokySp-study/react)
 
 리엑트를 배워보쟈 (코딩애플 강의 복기)
-<br>`Updated Nov 29, 2022`
+<br>`Updated Dec 18, 2022`
+<br><br>
+
+### [react-hook-form-test](https://github.com/DokySp-study/react-hook-form-test)
+
+react-hook-form 테스트
+<br>`Updated Jan 25, 2022`
 <br><br>
 
 ### [typescript](https://github.com/DokySp-study/typescript)
