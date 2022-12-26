@@ -2,7 +2,7 @@
 
 - 개인 공부 내용을 정리한 Organization입니다.
 - 매주 월요일 0시에 업데이트됩니다. 최신 내용을 확인하시려면 아래 Organization을 방문해주세요.
-- **총 34개 레포** [완료: 17개 / 진행중: 17개]
+- **총 34개 레포** [완료: 18개 / 진행중: 16개]
 - [📚 Organization 방문하기](https://github.com/DokySp-study)
 
 <br>
@@ -105,6 +105,12 @@
 <br>`Updated Oct 24, 2022`
 <br><br>
 
+### [react](https://github.com/DokySp-study/react)
+
+ 리엑트를 배워보쟈 (코딩애플 강의 복기)
+<br>`Updated Dec 25, 2022`
+<br><br>
+
 ### [static-web-page](https://github.com/DokySp-study/static-web-page)
 
  정적 홈페이지 제작을 위한 레포입니다.
@@ -197,12 +203,6 @@ Github Actions를 배워보쟈!
 
 Practice node.js with Travis CI
 <br>`Updated Dec 11, 2022`
-<br><br>
-
-### [react](https://github.com/DokySp-study/react)
-
-리엑트를 배워보쟈 (코딩애플 강의 복기)
-<br>`Updated Dec 18, 2022`
 <br><br>
 
 ### [react-hook-form-test](https://github.com/DokySp-study/react-hook-form-test)
